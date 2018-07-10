@@ -13,6 +13,6 @@
 }
 @property (weak, nonatomic) IBOutlet UILabel *labelOutlet;
 
-// Add label outlet
+
 @end
 
