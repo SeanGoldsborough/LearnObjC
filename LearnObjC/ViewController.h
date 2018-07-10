@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    NSString *name;
+}
+@property (weak, nonatomic) IBOutlet UILabel *labelOutlet;
 
-
+// Add label outlet
 @end
 

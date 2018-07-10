@@ -17,6 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    name = @"Sean";
+    
+    NSString *greeting = @"Hello";
+    
+    // The space between the two %@ is what gives the string its space between greeting and name.
+    self.labelOutlet.text = [NSString stringWithFormat:@"%@ %@", greeting, name];
 }
 
 
